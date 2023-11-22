@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/bala18A.github.io/React-responsive-design/static/css/main.9f6e31e0.css",
-    "main.js": "/bala18A.github.io/React-responsive-design/static/js/main.e26464c4.js",
-    "static/media/APCC Banner_Desktop_Revised.png": "/bala18A.github.io/React-responsive-design/static/media/APCC Banner_Desktop_Revised.6afa90e7b4c4c876b0ef.png",
-    "static/media/Component 2 – 5.png": "/bala18A.github.io/React-responsive-design/static/media/Component 2 – 5.52dbf1d3a8fc73a90f6c.png",
-    "static/media/Component 35 – 4.png": "/bala18A.github.io/React-responsive-design/static/media/Component 35 – 4.ee804cf3cfae39307c87.png",
-    "static/media/banner-Mobile_Revised.png": "/bala18A.github.io/React-responsive-design/static/media/banner-Mobile_Revised.95906ab49b5fc9860585.png",
-    "static/media/APCC_Cancer Management-01.png": "/bala18A.github.io/React-responsive-design/static/media/APCC_Cancer Management-01.05d34bf655ae23e3ad7a.png",
-    "static/media/India’s First & Only.png": "/bala18A.github.io/React-responsive-design/static/media/India’s First & Only.79b77acd0665cf526154.png",
-    "static/media/Component 23 – 5.png": "/bala18A.github.io/React-responsive-design/static/media/Component 23 – 5.99c8437bf833d73ce5a0.png",
-    "static/media/Mask Group 11.png": "/bala18A.github.io/React-responsive-design/static/media/Mask Group 11.7ea20e30957e5f1e24d8.png",
-    "static/media/logo2.png": "/bala18A.github.io/React-responsive-design/static/media/logo2.2f165ebce16bf6911357.png",
-    "index.html": "/bala18A.github.io/React-responsive-design/index.html",
-    "main.9f6e31e0.css.map": "/bala18A.github.io/React-responsive-design/static/css/main.9f6e31e0.css.map",
-    "main.e26464c4.js.map": "/bala18A.github.io/React-responsive-design/static/js/main.e26464c4.js.map"
+    "main.css": "/React-responsive-design/static/css/main.836b32bf.css",
+    "main.js": "/React-responsive-design/static/js/main.7d1a4935.js",
+    "static/media/APCC Banner_Desktop_Revised.png": "/React-responsive-design/static/media/APCC Banner_Desktop_Revised.6afa90e7b4c4c876b0ef.png",
+    "static/media/Component 2 – 5.png": "/React-responsive-design/static/media/Component 2 – 5.52dbf1d3a8fc73a90f6c.png",
+    "static/media/Component 35 – 4.png": "/React-responsive-design/static/media/Component 35 – 4.ee804cf3cfae39307c87.png",
+    "static/media/banner-Mobile_Revised.png": "/React-responsive-design/static/media/banner-Mobile_Revised.95906ab49b5fc9860585.png",
+    "static/media/APCC_Cancer Management-01.png": "/React-responsive-design/static/media/APCC_Cancer Management-01.05d34bf655ae23e3ad7a.png",
+    "static/media/India’s First & Only.png": "/React-responsive-design/static/media/India’s First & Only.79b77acd0665cf526154.png",
+    "static/media/Component 23 – 5.png": "/React-responsive-design/static/media/Component 23 – 5.99c8437bf833d73ce5a0.png",
+    "static/media/Mask Group 11.png": "/React-responsive-design/static/media/Mask Group 11.7ea20e30957e5f1e24d8.png",
+    "static/media/logo2.png": "/React-responsive-design/static/media/logo2.2f165ebce16bf6911357.png",
+    "index.html": "/React-responsive-design/index.html",
+    "main.836b32bf.css.map": "/React-responsive-design/static/css/main.836b32bf.css.map",
+    "main.7d1a4935.js.map": "/React-responsive-design/static/js/main.7d1a4935.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f6e31e0.css",
-    "static/js/main.e26464c4.js"
+    "static/css/main.836b32bf.css",
+    "static/js/main.7d1a4935.js"
   ]
 }
