@@ -1,0 +1,145 @@
+
+.main7-para p {
+    font-size: 54px;
+    text-align: center;
+    padding: 110px 0px 50px 0px;
+    color: #494949;
+    font-family: var(--roboto-regular);
+    font-weight: bold;
+    letter-spacing: -2.7px;
+}
+
+.main7-btn button {
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 15px 90px 15px 90px;
+    background-color: #F9B919;
+    border: none;
+    border-radius: 10px;
+}
+
+.main7-btn {
+    text-align: center;
+    padding-bottom: 110px;
+}
+
+/* ----------------------------fixed side image */
+/* dispaly none new side  image */
+.side-image-new {
+    display: none;
+}
+
+.side-image {
+    position: fixed;
+    bottom: 20px;
+    margin-left: 1550px;
+    margin-top: -270px;
+
+
+}
+
+/* -----------------display none with side img */
+
+.slide {
+    display: none;
+}
+
+
+
+/* ==============================main7 media queries================ */
+
+
+@media only screen and (max-width:760px) and (min-width:360px) {
+    body {
+        width: 100%;
+    }
+
+
+
+    .main7 {
+        width: 85%;
+        margin: auto;
+    }
+
+    .main7-para p {
+        font-size: 28px;
+        text-align: center;
+        padding: 20px 0px 45px 0px;
+        color: #494949;
+        font-weight: bold;
+        letter-spacing: -1.4px;
+    }
+
+    .main7-btn button {
+
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        padding: 10px 20px 10px 20px;
+        background-color: #F9B919;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .main7-btn {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    /* ----------------------------fixed side image */
+    .side-image-new {
+        display: block;
+    }
+
+    .side-image {
+        display: none;
+    }
+
+    .side-image-new {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        position: fixed;
+        bottom: 20px;
+
+    }
+   /* ========new */
+
+   .slide {
+    display: block;
+}
+
+.slide {
+    width: 90%;
+    margin: auto;
+}
+
+.slide-image,
+.slide-para,
+.pagination {
+    text-align: center;
+}
+
+.slide-image {
+    padding: 35px 0px 0px 0px;
+}
+
+.slide-para p {
+    color: #494949;
+    font-size: 24px;
+    padding: 30px 0px 45px 0px;
+
+}
+
+.slide-para p span {
+    font-weight: bold;
+}
+
+.pagination {
+    padding-bottom: 40px;
+}
+
+}

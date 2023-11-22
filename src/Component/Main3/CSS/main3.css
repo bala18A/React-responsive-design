@@ -1,0 +1,45 @@
+.main3 {
+    background-color: #0D83A1;
+}
+
+.apply-width {
+
+    width: 92%;
+    margin: auto;
+
+}
+
+.main3-para1 {
+    font-size: 65px;
+    font-family: var(--roboto-bold);
+    text-align: center;
+    color: #F3F3F3;
+
+    padding: 105px 0px 50px 0px;
+
+}
+
+.main3-para2 {
+    font-size: 24px;
+    font-family: var(--roboto-regular);
+    text-align: center;
+    color: #F3F3F3;
+    line-height: 45px;
+    padding: 0px 0px 90px 0px;
+}
+/* ======================main3 media queries================ */
+@media only screen and (max-width:760px) and (min-width:360px) {
+    body {
+        width: 100%;
+    }
+.main3-para1 {
+    font-size: 40px;
+    padding: 40px 0px 40px 0px;
+}
+
+.main3-para2 {
+    font-size: 14px;
+    line-height: 35px;
+    padding: 0px 0px 30px 0px;
+}
+}

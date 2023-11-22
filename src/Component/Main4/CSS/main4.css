@@ -1,0 +1,125 @@
+/* ----------- new attach media queries----- */
+.new-box-responsive {
+    display: none;
+}
+
+/* --------------------------------------- */
+
+
+.main4 {
+    width: 80%;
+    margin: auto;
+}
+
+.main4-para1 span {
+    color: #000000;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: var(--roboto-regular)
+}
+
+.main4-para1 p {
+    font-size: 65px;
+    color: #000000;
+    text-align: center;
+    padding: 105px 0px 0px 0px;
+    line-height: 80px;
+}
+
+.main4-para2 p {
+    font-size: 40px;
+    color: #494949;
+    text-align: center;
+    font-family: var(--roboto-bold);
+    font-weight: bold;
+    padding: 45px 0px 45px 0px;
+}
+
+.main4-image {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 70px;
+
+}
+/* ======================main4 medis queries */
+@media only screen and (max-width:760px) and (min-width:360px) {
+    body {
+        width: 100%;
+    }
+     /* -----media change-- */
+     .new-box-responsive {
+        display: block;
+    }
+
+    /* ---------------- */
+    .main4 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .main4-para1 span {
+        font-size: 24px;
+    }
+
+
+    .main4-para1 p {
+        font-size: 24px;
+        text-align: center;
+        padding: 60px 0px 0px 0px;
+        line-height: 40px;
+    }
+
+    .main4-para2 p {
+        font-size: 16px;
+
+        padding: 25px 0px 25px 0px;
+    }
+
+    .main4-res {
+        width: 70%;
+        margin: auto;
+    }
+
+    /* ----image edit */
+    .main4-image {
+        display: none;
+    }
+
+    /* ------new creation scrool---- */
+    .new-box-responsive {
+        display: block;
+    }
+
+    .new-box-responsive {
+        width: 90%;
+        margin: auto;
+    }
+
+    .box-head {
+
+        white-space: nowrap;
+        overflow: auto;
+    }
+
+    .box-head::-webkit-scrollbar {
+        display: none;
+    }
+
+    .new-box {
+        width: 60%;
+
+        margin: 10px;
+        display: inline-block;
+        padding: 26px 30px 26px 30px;
+        border: 1px solid #494949;
+
+    }
+
+    .new-box p {
+        text-align: center;
+        font-size: 14px;
+        color: #0D83A1;
+        font-weight: bold;
+    }
+}

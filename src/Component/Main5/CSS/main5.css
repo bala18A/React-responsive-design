@@ -1,0 +1,104 @@
+/* =======================================main5 css */
+.main5-new-box {
+    display: none;
+}
+
+/* --------------------------------------- */
+
+
+.main5 {
+    background-color: #0D83A1;
+    position: relative;
+    z-index: 1;
+
+}
+
+.main5-width {
+    width: 92%;
+    margin: auto;
+
+}
+
+.main5-first-p p {
+    font-size: 65px;
+    font-family: var(--roboto-bold);
+    font-weight: bold;
+    text-align: center;
+    padding: 100px 0px 60px 0px;
+
+}
+
+.main-boxes {
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.main5-box {
+    width: 30%;
+
+    margin: 20px;
+}
+
+.m5 {
+    font-size: 24px;
+    padding: 20px 0px 40px 0px;
+    color: #F9B919;
+    font-family: var(--roboto-bold);
+    font-weight: bold;
+}
+.m25 {
+    font-size: 24px;
+    font-family: var(--roboto-regular);
+}
+
+
+/* ===================main 5 media queries */
+@media only screen and (max-width:760px) and (min-width:360px) {
+    body {
+        width: 100%;
+    }
+    .main5-new-box {
+        display: block;
+    }
+
+    /* ----------------- */
+
+
+    .main5 {
+        display: none;
+    }
+
+    /* new creation main 5  */
+    .main5-new-box {
+        width: 83%;
+        margin: auto;
+    }
+
+    .head-box {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .head-box p {
+        font-size: 40px;
+        color: #494949;
+        text-align: center;
+        font-family: var(--roboto-bold);
+        font-weight: bold;
+    }
+
+    .head-box p::after {
+        content: url("../IMG/Line\ 57.png");
+        position: relative;
+        top: -12px;
+    }
+
+    .list-box li {
+        text-align: justify;
+        color: #494949;
+        line-height: 25px;
+    }
+
+    .list-box {
+        padding-bottom: 40px;
+    }
+}

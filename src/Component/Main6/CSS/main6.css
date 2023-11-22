@@ -1,0 +1,117 @@
+.main6-new {
+    display: none;
+}
+.main6-img img {
+
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+    background-color: #0D83A1;
+
+
+}
+
+.main6-img {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+
+}
+
+.main6-img img:hover {
+    transform: scale(1.1);
+}
+
+/* -------------------------------------------------------- */
+.text-in-image {
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main6-para1 {
+    color: #F9B919;
+    font-size: 55px;
+
+    padding-bottom: 15px;
+}
+
+.main6-para1 {
+    font-family: var(--roboto-bold);
+    font-weight: bold;
+}
+
+.main6-para2 {
+    color: white;
+    font-size: 24px;
+    font-family: var(--roboto-regular);
+    width: 85%;
+    margin: auto;
+    line-height: 40px;
+}
+/* ===================main 6 media queries */
+@media only screen and (max-width:760px) and (min-width:360px) {
+    body {
+        width: 100%;
+    }
+    .main6 {
+        display: none;
+    }
+
+    .main6-new {
+        display: block;
+    }
+
+    /* ------------------------- */
+
+    .main6-img-new img {
+
+        width: 100%;
+        transition: 0.5s all ease-in-out;
+        background-color: #0D83A1;
+
+
+    }
+
+    .main6-img-new {
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+
+
+    }
+
+    .main6-img-new img:hover {
+        transform: scale(1.1);
+    }
+
+    /* -------------------------------------------------------- */
+    .text-in-image-new {
+        width: 90%;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .main6-new-para1 {
+        color: #F9B919;
+        font-size: 28px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        padding-bottom: 15px;
+    }
+
+    .main6-new-para2 {
+        color: white;
+        font-size: 14px;
+        width: 85%;
+        margin: auto;
+        line-height: 20px;
+    }
+
+}

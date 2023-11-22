@@ -1,0 +1,1246 @@
+/* nuntio light form inside */
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@900&family=DynaPuff:wght@600&family=Fira+Sans:wght@400;500;900&family=Merriweather:wght@900&family=Nunito+Sans:wght@900&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,700;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+
+/* roboto bold */
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@900&family=DynaPuff:wght@600&family=Fira+Sans:wght@400;500;900&family=Merriweather:wght@900&family=Nunito+Sans:wght@900&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Roboto:ital,wght@1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+
+/* roboto medium */
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@900&family=DynaPuff:wght@600&family=Fira+Sans:wght@400;500;900&family=Merriweather:wght@900&family=Nunito+Sans:wght@900&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@500&family=Rubik+Wet+Paint&display=swap');
+/* roboto regular */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@900&family=DynaPuff:wght@600&family=Fira+Sans:wght@400;500;900&family=Merriweather:wght@900&family=Nunito+Sans:wght@900&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Roboto&family=Rubik+Wet+Paint&display=swap');
+
+
+:root {
+    --nuntio: 'Nunito', sans-serif;
+    --roboto-bold: 'Roboto', sans-serif;
+    --roboto-medium: 'Roboto', sans-serif;
+    --roboto-regular: 'Roboto', sans-serif;
+
+
+}
+
+
+* {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+}
+
+
+/* ----------------------------------HEADER css---------------------------------- */
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.continer {
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 3000;
+
+    background-color: white;
+
+    box-shadow: 6px 0px 8px 1px rgb(190, 186, 186);
+
+}
+
+.logo img {
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+/* -------new button desin with icon */
+button {
+    background-color: #F9B919;
+
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--roboto-bold);
+    color: white;
+}
+
+/* a{
+    width: 100%;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--roboto-bold);
+    color: white;
+ 
+} */
+.fa-phone {
+    padding: 0px 20px;
+}
+
+.fa-sharp {
+    padding: 0px 20px;
+}
+
+button:hover a i {
+    color: #0D83A1;
+}
+
+button:hover a {
+    color: #0D83A1;
+}
+
+/* ---------------------header new attach media queries--------------------- */
+.burger-icon {
+    display:
+        none;
+}
+
+@media only screen and (max-width:760px) and (min-width:360px) {
+
+    /*============================= Header media queries============================= */
+    body {
+        width: 100%;
+    }
+
+    .burger-icon {
+        display: block;
+    }
+
+    .flex button {
+        display: none;
+    }
+
+    .continer {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/* -------------------------------------main1 css------------------------- */
+
+/* ---------------------left text responsive-------------------------------------------- */
+.left-text-responsive {
+    display: none;
+}
+
+.right-text-responcive {
+    display: none;
+}
+
+/* ----------------------------------------------------- */
+main {
+    display: flex;
+    padding-top: 116px;
+
+
+}
+
+.right-div {
+    width: 60%;
+
+
+
+}
+
+.left-div {
+    width: 40%;
+    /* background-color: aqua; */
+
+
+
+}
+
+
+.left-div {
+
+    /* height: 903px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-div {
+
+    height: 903px;
+    background-image: url("./image/APCC\ Banner_Desktop_Revised.png");
+    background-size: cover;
+    width: 100%;
+
+}
+
+.left-text {
+    /* display: inline; */
+    /*-----------*************--------------***********--------------------------------doubt-------**********************************************/
+    padding-left: 150px;
+
+}
+
+/* ---------------form---------- */
+.right-text {
+    position: relative;
+}
+
+.form-menu {
+    position: absolute;
+    top: 200px;
+    left: 670px;
+    width: 38%;
+    /* min-height: 500px; */
+    border-radius: 10px;
+}
+
+.form-menu {
+    background-color: #EFEDE7;
+
+
+}
+
+.forms {
+    width: 86%;
+    margin: auto;
+}
+
+input[type=text],
+input[type=email],
+select {
+    padding: 12px;
+    border: none;
+    color: #838383;
+    font-size: 16px;
+    font-family: var(--nuntio);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.first p {
+    color: #0D83A1;
+    font-size: 21px;
+    font-family: var(--roboto-bold);
+    font-family: Roboto, 'sans-serif';
+    font-weight: bold;
+    padding: 40px 0px 10px 0px;
+
+
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+
+}
+
+.radio-btn {
+    padding: 40px 10px 10px 0px;
+
+
+}
+
+.radio-btn label {
+    padding: 40px 4px 10px 10px;
+    font-size: 16px;
+    font-family: var(--roboto-bold);
+    font-weight: bold;
+    color: #494949;
+}
+
+.first2 {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 14px 0px;
+}
+
+
+.first2 input {
+    width: 48%
+}
+
+.email {
+    width: 100%;
+    padding: 0px 0px 14px 0px;
+
+}
+
+.number {
+    width: 100%;
+    padding: 0px 0px 14px 0px;
+
+
+}
+
+.first3 {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 14px 0px;
+}
+
+.first3 select option {
+    color: #494949;
+}
+
+.first3 input {
+    width: 48%
+}
+
+.we-looking {
+    padding: 0px 0px 14px 0px;
+}
+
+.we-looking select {
+    width: 100%;
+    color: #494949;
+    /* color: black; */
+
+}
+
+.we-looking select option {
+    color: #494949;
+
+}
+
+.discripition {
+    width: 100%
+}
+
+.form-paragraph p {
+    text-align: center;
+    color: #0D83A1;
+    padding: 30px 0px 40px 0px;
+    font-family: var(--roboto-light);
+
+}
+
+.form-btn button {
+    width: 100%;
+    background-color: #F9B919;
+    border-radius: 7px;
+    border: none;
+    padding: 17px 0px 17px 0px;
+    font-family: var(--roboto-medium);
+    font-size: 24px;
+
+}
+
+.form-btn {
+    padding: 10px 0px 40px 0px;
+}
+
+select {
+    width: 48%;
+}
+
+
+.first3 .city,
+.country {
+    color: #494949;
+}
+
+input {
+    color: black;
+}
+
+/* ======================main 1 media queries */
+@media only screen and (max-width:760px) and (min-width:360px) {
+
+    /*============================= main1  media queries============================= */
+    body {
+        width: 100%;
+    }
+
+    main {
+        display: block;
+
+    }
+
+    .left-div {
+        width: 100%;
+        margin: auto;
+    }
+
+    .left-text {
+        padding-left: 0px;
+    }
+
+    .left-text {
+        display: none;
+    }
+
+    .left-text-responsive {
+        display: inline-block;
+        padding: 20px 0px 20px 0px;
+    }
+
+    /* --------------------------------------------------------------------------- */
+    /* -----------------------------------------------right-div--------- */
+
+    .right-div {
+        width: 100%;
+    }
+
+    .right-text {
+        width: 90%;
+        margin: auto;
+
+
+    }
+
+    .connot-show {
+        display: none;
+
+    }
+
+    .right-text-responsive {
+        display: block;
+        width: 100%;
+    }
+
+    .form-menu {
+        position: absolute;
+        top: 260px;
+        left: 0;
+        width: 100%;
+
+        border-radius: 10px;
+    }
+
+    .right-div {
+
+        height: 400px;
+        background-image: url("./image/banner-Mobile_Revised.png");
+        background-size: cover;
+        width: 100%;
+    }
+
+    /* ---------------------------form edit------------------------- */
+
+    .form-menu {
+        background-color: #EFEDE7;
+
+
+    }
+
+    .forms {
+        width: 86%;
+        margin: auto;
+    }
+
+    input[type=text],
+    input[type=email],
+    select {
+        padding: 12px;
+        border: none;
+        color: #838383;
+        font-size: 14px;
+        font-family: var(--nuntio);
+        border-radius: 5px;
+        width: 100%;
+        height: 40px;
+
+    }
+
+    .first p {
+        color: #0D83A1;
+        font-size: 14px;
+        font-family: var(--roboto-bold);
+        /* font-family: Roboto, 'sans-serif'; */
+        font-weight: bold;
+
+
+
+    }
+
+    .first {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+
+    .radio-btn label {
+
+        font-size: 11px;
+        font-family: var(--roboto-bold);
+        font-weight: bold;
+        color: #494949;
+        padding: 10px;
+
+    }
+
+
+
+    .first2 {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px 8px 0px;
+    }
+
+
+    .first2 input {
+        width: 48%
+    }
+
+    .email {
+        width: 100%;
+        padding: 0px 0px 8px 0px;
+
+    }
+
+    .number {
+        width: 100%;
+        padding: 0px 0px 8px 0px;
+
+
+    }
+
+    .first3 {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px 8px 0px;
+    }
+
+    .first3 input {
+        width: 48%
+    }
+
+    .we-looking {
+        padding: 0px 0px 8px 0px;
+    }
+
+    .we-looking select {
+        width: 100%;
+        color: #494949;
+        padding: 0px 0px 6px 10px;
+
+
+
+    }
+
+    .first3 select {
+        padding: 0px 0px 6px 10px;
+    }
+
+    .discripition {
+        width: 100%
+    }
+
+    .form-paragraph p {
+        text-align: center;
+        color: #0D83A1;
+        padding: 20px 0px 20px 0px;
+        font-size: 10px;
+        font-family: var(--roboto-light);
+
+    }
+
+    .form-btn button {
+        width: 100%;
+        background-color: #F9B919;
+        border-radius: 7px;
+        border: none;
+        padding: 10px 0px 10px 0px;
+        font-family: var(--roboto-medium);
+        font-size: 24px;
+
+    }
+
+    .form-btn {
+        padding: 0px 0px 20px 0px;
+
+    }
+
+    select {
+        width: 48%;
+    }
+
+
+    .first3 .city,
+    .country {
+        color: #494949;
+    }
+
+    input {
+        color: black;
+    }
+}
+
+/* ===========================================================main2 ========================================== */
+
+.main2 {
+    width: 85%;
+    margin: auto;
+
+}
+
+.cancer-types-text p {
+    color: #CECECE;
+
+    font-size: 65px;
+    text-align: center;
+    font-family: var(--roboto-bold);
+    font-weight: bold;
+}
+
+.cancer-types-text {
+    padding: 80px 0px 20px 0px;
+
+}
+
+.box1 p {
+    color: #494949;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cancer-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+}
+
+.box1 {
+    width: 19%;
+    /* background-color: #F9B919;  */
+    margin: 5px;
+
+}
+
+.center {
+    text-align: center;
+    padding: 10px;
+}
+
+.center p {
+    min-height: 87px;
+    padding-top: 20px;
+    font-family: var(--roboto-bold);
+
+}
+
+
+
+
+
+/*============================= main2  media queries============================= */
+@media only screen and (max-width:760px) and (min-width:360px) {
+    body {
+        width: 100%;
+    }
+    .main2 {
+
+        width: 100%;
+        margin: auto;
+        margin-top: 350px;
+    }
+
+    .cancer-types-text p {
+
+        font-size: 40px;
+    }
+
+    .cancer-types-text {
+        padding: 18px 0px 10px 0px;
+    }
+
+    .box1 p {
+
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .box1 {
+        width: 33%;
+
+        margin: px;
+    }
+
+    .cancer-types {
+
+        justify-content: space-around;
+
+        padding: 30px 0px 30px 0px;
+    }
+
+    .center {
+        text-align: center;
+        padding: px;
+    }
+
+    .center p {
+        min-height: 60px;
+        padding-top: 20px;
+
+    }
+}
+/* =================================main 3 css================= */
+.main3 {
+    background-color: #0D83A1;
+}
+
+.apply-width {
+
+    width: 92%;
+    margin: auto;
+
+}
+
+.main3-para1 {
+    font-size: 65px;
+    font-family: var(--roboto-bold);
+    text-align: center;
+    color: #F3F3F3;
+
+    padding: 105px 0px 50px 0px;
+
+}
+
+.main3-para2 {
+    font-size: 24px;
+    font-family: var(--roboto-regular);
+    text-align: center;
+    color: #F3F3F3;
+    line-height: 45px;
+    padding: 0px 0px 90px 0px;
+}
+/* ======================main3 media queries================ */
+@media only screen and (max-width:760px) and (min-width:360px) {
+    body {
+        width: 100%;
+    }
+.main3-para1 {
+    font-size: 40px;
+    padding: 40px 0px 40px 0px;
+}
+
+.main3-para2 {
+    font-size: 14px;
+    line-height: 35px;
+    padding: 0px 0px 30px 0px;
+}
+}
+/* ==================main 3 closed */
+
+
+/* -----------------------------------main 4 css start--------------------------------------------- */
+/* ----------- new attach media queries----- */
+.new-box-responsive {
+    display: none;
+}
+
+/* --------------------------------------- */
+
+
+.main4 {
+    width: 80%;
+    margin: auto;
+}
+
+.main4-para1 span {
+    color: #000000;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: var(--roboto-regular)
+}
+
+.main4-para1 p {
+    font-size: 65px;
+    color: #000000;
+    text-align: center;
+    padding: 105px 0px 0px 0px;
+    line-height: 80px;
+}
+
+.main4-para2 p {
+    font-size: 40px;
+    color: #494949;
+    text-align: center;
+    font-family: var(--roboto-bold);
+    font-weight: bold;
+    padding: 45px 0px 45px 0px;
+}
+
+.main4-image {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 70px;
+
+}
+/* ======================main4 medis queries */
+@media only screen and (max-width:760px) and (min-width:360px) {
+    body {
+        width: 100%;
+    }
+     /* -----media change-- */
+     .new-box-responsive {
+        display: block;
+    }
+
+    /* ---------------- */
+    .main4 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .main4-para1 span {
+        font-size: 24px;
+    }
+
+
+    .main4-para1 p {
+        font-size: 24px;
+        text-align: center;
+        padding: 60px 0px 0px 0px;
+        line-height: 40px;
+    }
+
+    .main4-para2 p {
+        font-size: 16px;
+
+        padding: 25px 0px 25px 0px;
+    }
+
+    .main4-res {
+        width: 70%;
+        margin: auto;
+    }
+
+    /* ----image edit */
+    .main4-image {
+        display: none;
+    }
+
+    /* ------new creation scrool---- */
+    .new-box-responsive {
+        display: block;
+    }
+
+    .new-box-responsive {
+        width: 90%;
+        margin: auto;
+    }
+
+    .box-head {
+
+        white-space: nowrap;
+        overflow: auto;
+    }
+
+    .box-head::-webkit-scrollbar {
+        display: none;
+    }
+
+    .new-box {
+        width: 60%;
+
+        margin: 10px;
+        display: inline-block;
+        padding: 26px 30px 26px 30px;
+        border: 1px solid #494949;
+
+    }
+
+    .new-box p {
+        text-align: center;
+        font-size: 14px;
+        color: #0D83A1;
+        font-weight: bold;
+    }
+}
+/* =======================================main5 css */
+.main5-new-box {
+    display: none;
+}
+
+/* --------------------------------------- */
+
+
+.main5 {
+    background-color: #0D83A1;
+    position: relative;
+    z-index: 1;
+
+}
+
+.main5-width {
+    width: 92%;
+    margin: auto;
+
+}
+
+.main5-first-p p {
+    font-size: 65px;
+    font-family: var(--roboto-bold);
+    font-weight: bold;
+    text-align: center;
+    padding: 100px 0px 60px 0px;
+
+}
+
+.main-boxes {
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.main5-box {
+    width: 30%;
+
+    margin: 20px;
+}
+
+.m5 {
+    font-size: 24px;
+    padding: 20px 0px 40px 0px;
+    color: #F9B919;
+    font-family: var(--roboto-bold);
+    font-weight: bold;
+}
+.m25 {
+    font-size: 24px;
+    font-family: var(--roboto-regular);
+}
+
+
+/* ===================main 5 media queries */
+@media only screen and (max-width:760px) and (min-width:360px) {
+    body {
+        width: 100%;
+    }
+    .main5-new-box {
+        display: block;
+    }
+
+    /* ----------------- */
+
+
+    .main5 {
+        display: none;
+    }
+
+    /* new creation main 5  */
+    .main5-new-box {
+        width: 83%;
+        margin: auto;
+    }
+
+    .head-box {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .head-box p {
+        font-size: 40px;
+        color: #494949;
+        text-align: center;
+        font-family: var(--roboto-bold);
+        font-weight: bold;
+    }
+
+    .head-box p::after {
+        content: url("./image/Line\ 57.png");
+        position: relative;
+        top: -12px;
+    }
+
+    .list-box li {
+        text-align: justify;
+        color: #494949;
+        line-height: 25px;
+    }
+
+    .list-box {
+        padding-bottom: 40px;
+    }
+}
+/* ====================================main 6 css====================== */
+.main6-new {
+    display: none;
+}
+.main6-img img {
+
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+    background-color: #0D83A1;
+
+
+}
+
+.main6-img {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+
+}
+
+.main6-img img:hover {
+    transform: scale(1.1);
+}
+
+/* -------------------------------------------------------- */
+.text-in-image {
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main6-para1 {
+    color: #F9B919;
+    font-size: 55px;
+
+    padding-bottom: 15px;
+}
+
+.main6-para1 {
+    font-family: var(--roboto-bold);
+    font-weight: bold;
+}
+
+.main6-para2 {
+    color: white;
+    font-size: 24px;
+    font-family: var(--roboto-regular);
+    width: 85%;
+    margin: auto;
+    line-height: 40px;
+}
+/* ===================main 6 media queries */
+@media only screen and (max-width:760px) and (min-width:360px) {
+    body {
+        width: 100%;
+    }
+    .main6 {
+        display: none;
+    }
+
+    .main6-new {
+        display: block;
+    }
+
+    /* ------------------------- */
+
+    .main6-img-new img {
+
+        width: 100%;
+        transition: 0.5s all ease-in-out;
+        background-color: #0D83A1;
+
+
+    }
+
+    .main6-img-new {
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+
+
+    }
+
+    .main6-img-new img:hover {
+        transform: scale(1.1);
+    }
+
+    /* -------------------------------------------------------- */
+    .text-in-image-new {
+        width: 90%;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .main6-new-para1 {
+        color: #F9B919;
+        font-size: 28px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        padding-bottom: 15px;
+    }
+
+    .main6-new-para2 {
+        color: white;
+        font-size: 14px;
+        width: 85%;
+        margin: auto;
+        line-height: 20px;
+    }
+
+}
+/* ========================main7 .css============ */
+.main7-para p {
+    font-size: 54px;
+    text-align: center;
+    padding: 110px 0px 50px 0px;
+    color: #494949;
+    font-family: var(--roboto-regular);
+    font-weight: bold;
+    letter-spacing: -2.7px;
+}
+
+.main7-btn button {
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 15px 90px 15px 90px;
+    background-color: #F9B919;
+    border: none;
+    border-radius: 10px;
+}
+
+.main7-btn {
+    text-align: center;
+    padding-bottom: 110px;
+}
+
+/* ----------------------------fixed side image */
+/* dispaly none new side  image */
+.side-image-new {
+    display: none;
+}
+
+.side-image {
+    position: fixed;
+    bottom: 20px;
+    margin-left: 1550px;
+    margin-top: -270px;
+
+
+}
+
+/* -----------------display none with side img */
+
+.slide {
+    display: none;
+}
+
+
+
+/* ==============================main7 media queries================ */
+
+
+@media only screen and (max-width:760px) and (min-width:360px) {
+    body {
+        width: 100%;
+    }
+
+
+
+    .main7 {
+        width: 85%;
+        margin: auto;
+    }
+
+    .main7-para p {
+        font-size: 28px;
+        text-align: center;
+        padding: 20px 0px 45px 0px;
+        color: #494949;
+        font-weight: bold;
+        letter-spacing: -1.4px;
+    }
+
+    .main7-btn button {
+
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        padding: 10px 20px 10px 20px;
+        background-color: #F9B919;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .main7-btn {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    /* ----------------------------fixed side image */
+    .side-image-new {
+        display: block;
+    }
+
+    .side-image {
+        display: none;
+    }
+
+    .side-image-new {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        position: fixed;
+        bottom: 20px;
+
+    }
+   /* ========new */
+
+   .slide {
+    display: block;
+}
+
+.slide {
+    width: 90%;
+    margin: auto;
+}
+
+.slide-image,
+.slide-para,
+.pagination {
+    text-align: center;
+}
+
+.slide-image {
+    padding: 35px 0px 0px 0px;
+}
+
+.slide-para p {
+    color: #494949;
+    font-size: 24px;
+    padding: 30px 0px 45px 0px;
+
+}
+
+.slide-para p span {
+    font-weight: bold;
+}
+
+.pagination {
+    padding-bottom: 40px;
+}
+
+}

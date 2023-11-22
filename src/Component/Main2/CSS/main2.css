@@ -1,0 +1,109 @@
+
+.main2 {
+    width: 85%;
+    margin: auto;
+
+}
+
+.cancer-types-text p {
+    color: #CECECE;
+
+    font-size: 65px;
+    text-align: center;
+    font-family: var(--roboto-bold);
+    font-weight: bold;
+}
+
+.cancer-types-text {
+    padding: 80px 0px 20px 0px;
+
+}
+
+.box1 p {
+    color: #494949;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cancer-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+}
+
+.box1 {
+    width: 19%;
+    /* background-color: #F9B919;  */
+    margin: 5px;
+
+}
+
+.center {
+    text-align: center;
+    padding: 10px;
+}
+
+.center p {
+    min-height: 87px;
+    padding-top: 20px;
+    font-family: var(--roboto-bold);
+
+}
+
+
+
+
+
+/*============================= main2  media queries============================= */
+@media only screen and (max-width:760px) and (min-width:360px) {
+    body {
+        width: 100%;
+    }
+    .main2 {
+
+        width: 100%;
+        margin: auto;
+        margin-top: 350px;
+    }
+
+    .cancer-types-text p {
+
+        font-size: 40px;
+    }
+
+    .cancer-types-text {
+        padding: 18px 0px 10px 0px;
+    }
+
+    .box1 p {
+
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .box1 {
+        width: 33%;
+
+        margin: px;
+    }
+
+    .cancer-types {
+
+        justify-content: space-around;
+
+        padding: 30px 0px 30px 0px;
+    }
+
+    .center {
+        text-align: center;
+        padding: px;
+    }
+
+    .center p {
+        min-height: 60px;
+        padding-top: 20px;
+
+    }
+}

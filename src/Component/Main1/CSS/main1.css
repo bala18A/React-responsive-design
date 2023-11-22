@@ -1,0 +1,458 @@
+
+/* -------------------------------------main1 css------------------------- */
+
+/* ---------------------left text responsive-------------------------------------------- */
+.left-text-responsive {
+    display: none;
+}
+
+.right-text-responcive {
+    display: none;
+}
+
+/* ----------------------------------------------------- */
+main {
+    display: flex;
+    padding-top: 116px;
+
+
+}
+
+.right-div {
+    width: 60%;
+
+
+
+}
+
+.left-div {
+    width: 40%;
+    /* background-color: aqua; */
+
+
+
+}
+
+
+.left-div {
+
+    /* height: 903px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-div {
+
+    height: 903px;
+    background-image: url("../IMG/APCC\ Banner_Desktop_Revised.png");
+    background-size: cover;
+    width: 100%;
+
+}
+
+.left-text {
+    /* display: inline; */
+    /*-----------*************--------------***********--------------------------------doubt-------**********************************************/
+    padding-left: 150px;
+
+}
+
+/* ---------------form---------- */
+.right-text {
+    position: relative;
+}
+
+.form-menu {
+    position: absolute;
+    top: 200px;
+    left: 670px;
+    width: 38%;
+    /* min-height: 500px; */
+    border-radius: 10px;
+}
+
+.form-menu {
+    background-color: #EFEDE7;
+
+
+}
+
+.forms {
+    width: 86%;
+    margin: auto;
+}
+
+input[type=text],
+input[type=email],
+select {
+    padding: 12px;
+    border: none;
+    color: #838383;
+    font-size: 16px;
+    font-family: var(--nuntio);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.first p {
+    color: #0D83A1;
+    font-size: 21px;
+    font-family: var(--roboto-bold);
+    font-family: Roboto, 'sans-serif';
+    font-weight: bold;
+    padding: 40px 0px 10px 0px;
+
+
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+
+}
+
+.radio-btn {
+    padding: 40px 10px 10px 0px;
+
+
+}
+
+.radio-btn label {
+    padding: 40px 4px 10px 10px;
+    font-size: 16px;
+    font-family: var(--roboto-bold);
+    font-weight: bold;
+    color: #494949;
+}
+
+.first2 {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 14px 0px;
+}
+
+
+.first2 input {
+    width: 48%
+}
+
+.email {
+    width: 100%;
+    padding: 0px 0px 14px 0px;
+
+}
+
+.number {
+    width: 100%;
+    padding: 0px 0px 14px 0px;
+
+
+}
+
+.first3 {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 14px 0px;
+}
+
+.first3 select option {
+    color: #494949;
+}
+
+.first3 input {
+    width: 48%
+}
+
+.we-looking {
+    padding: 0px 0px 14px 0px;
+}
+
+.we-looking select {
+    width: 100%;
+    color: #494949;
+    /* color: black; */
+
+}
+
+.we-looking select option {
+    color: #494949;
+
+}
+
+.discripition {
+    width: 100%
+}
+
+.form-paragraph p {
+    text-align: center;
+    color: #0D83A1;
+    padding: 30px 0px 40px 0px;
+    font-family: var(--roboto-light);
+
+}
+
+.form-btn button {
+    width: 100%;
+    background-color: #F9B919;
+    border-radius: 7px;
+    border: none;
+    padding: 17px 0px 17px 0px;
+    font-family: var(--roboto-medium);
+    font-size: 24px;
+
+}
+
+.form-btn {
+    padding: 10px 0px 40px 0px;
+}
+
+select {
+    width: 48%;
+}
+
+
+.first3 .city,
+.country {
+    color: #494949;
+}
+
+input {
+    color: black;
+}
+
+/* ======================main 1 media queries */
+@media only screen and (max-width:760px) and (min-width:360px) {
+
+    /*============================= main1  media queries============================= */
+    body {
+        width: 100%;
+    }
+
+    main {
+        display: block;
+
+    }
+
+    .left-div {
+        width: 100%;
+        margin: auto;
+    }
+
+    .left-text {
+        padding-left: 0px;
+    }
+
+    .left-text {
+        display: none;
+    }
+
+    .left-text-responsive {
+        display: inline-block;
+        padding: 20px 0px 20px 0px;
+    }
+
+    /* --------------------------------------------------------------------------- */
+    /* -----------------------------------------------right-div--------- */
+
+    .right-div {
+        width: 100%;
+    }
+
+    .right-text {
+        width: 90%;
+        margin: auto;
+
+
+    }
+
+    .connot-show {
+        display: none;
+
+    }
+
+    .right-text-responsive {
+        display: block;
+        width: 100%;
+    }
+
+    .form-menu {
+        position: absolute;
+        top: 260px;
+        left: 0;
+        width: 100%;
+
+        border-radius: 10px;
+    }
+
+    .right-div {
+
+        height: 400px;
+        background-image: url("../IMG/banner-Mobile_Revised.png");
+        background-size: cover;
+        width: 100%;
+    }
+
+    /* ---------------------------form edit------------------------- */
+
+    .form-menu {
+        background-color: #EFEDE7;
+
+
+    }
+
+    .forms {
+        width: 86%;
+        margin: auto;
+    }
+
+    input[type=text],
+    input[type=email],
+    select {
+        padding: 12px;
+        border: none;
+        color: #838383;
+        font-size: 14px;
+        font-family: var(--nuntio);
+        border-radius: 5px;
+        width: 100%;
+        height: 40px;
+
+    }
+
+    .first p {
+        color: #0D83A1;
+        font-size: 14px;
+        font-family: var(--roboto-bold);
+        /* font-family: Roboto, 'sans-serif'; */
+        font-weight: bold;
+
+
+
+    }
+
+    .first {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+
+    .radio-btn label {
+
+        font-size: 11px;
+        font-family: var(--roboto-bold);
+        font-weight: bold;
+        color: #494949;
+        padding: 10px;
+
+    }
+
+
+
+    .first2 {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px 8px 0px;
+    }
+
+
+    .first2 input {
+        width: 48%
+    }
+
+    .email {
+        width: 100%;
+        padding: 0px 0px 8px 0px;
+
+    }
+
+    .number {
+        width: 100%;
+        padding: 0px 0px 8px 0px;
+
+
+    }
+
+    .first3 {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px 8px 0px;
+    }
+
+    .first3 input {
+        width: 48%
+    }
+
+    .we-looking {
+        padding: 0px 0px 8px 0px;
+    }
+
+    .we-looking select {
+        width: 100%;
+        color: #494949;
+        padding: 0px 0px 6px 10px;
+
+
+
+    }
+
+    .first3 select {
+        padding: 0px 0px 6px 10px;
+    }
+
+    .discripition {
+        width: 100%
+    }
+
+    .form-paragraph p {
+        text-align: center;
+        color: #0D83A1;
+        padding: 20px 0px 20px 0px;
+        font-size: 10px;
+        font-family: var(--roboto-light);
+
+    }
+
+    .form-btn button {
+        width: 100%;
+        background-color: #F9B919;
+        border-radius: 7px;
+        border: none;
+        padding: 10px 0px 10px 0px;
+        font-family: var(--roboto-medium);
+        font-size: 24px;
+
+    }
+
+    .form-btn {
+        padding: 0px 0px 20px 0px;
+
+    }
+
+    select {
+        width: 48%;
+    }
+
+
+    .first3 .city,
+    .country {
+        color: #494949;
+    }
+
+    input {
+        color: black;
+    }
+}
